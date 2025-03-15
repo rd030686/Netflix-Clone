@@ -54,6 +54,14 @@ nav {
     z-index: 1;
 }
 
+.nav-topfade {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8000) 0.000%, rgba(0, 0, 0, 0.7889) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.7000) 25.00%, rgba(0, 0, 0, 0.6222) 33.33%, rgba(0, 0, 0, 0.5222) 41.67%, rgba(0, 0, 0, 0.4000) 50.00%, rgba(0, 0, 0, 0.2778) 58.33%, rgba(0, 0, 0, 0.1778) 66.67%, rgba(0, 0, 0, 0.1000) 75.00%, rgba(0, 0, 0, 0.04444) 83.33%, rgba(0, 0, 0, 0.01111) 91.67%, rgba(0, 0, 0, 0.000) 100.0%);
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+
 nav span img {
     width: 140px;
 }
@@ -75,7 +83,7 @@ nav div select {
     -webkit-appearance: none;
 }
 
-#translate-svg {
+nav #translate-svg {
     transform: translate(-160%);
 }
 
@@ -393,6 +401,214 @@ nav .login-btn {
     transform: translate(165px, 70px);
 }
 
+
+/* FAQ CSS styles */
+
+.faq-sect {
+    width: 80.55555555555556vw;
+    margin: auto;
+    height: 630px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-width: 1280px;
+}
+
+.faq-sect h3 {
+    font-size: 1.5rem;
+}
+
+.container-item {
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0 0 0.5rem 0;
+    height: 100%;
+    padding: 1.5rem;
+}
+
+.faq-sect ul li {
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+.container-button h3 {
+    font-weight: 500;
+}
+
+.container-button {
+    width: 95%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: left;
+}
+
+
+/* FAQ CSS styles */
+
+.faq-sect {
+    width: 80.55555555555556vw;
+    margin: auto;
+    height: 630px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-width: 1280px;
+}
+
+.faq-sect h3 {
+    font-size: 1.5rem;
+}
+
+.container-item {
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0 0 0.5rem 0;
+    height: 100%;
+    padding: 1.5rem;
+}
+
+.faq-sect ul li {
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+
+.container-button h3 {
+    font-weight: 500;
+}
+
+.container-button {
+    width: 95%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: left;
+}
+
+
+/* Input field CSS styles */
+
+.input-field {
+    text-align: center;
+    margin-top: 3.5rem;
+}
+
+.input-field span h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Footer Section CSS styles */
+
+footer {
+    padding-top: 3.5rem;
+    max-width: 1280px;
+    margin: auto;
+    width: 80.55555555555556vw;
+}
+
+
+footer span li {
+    list-style: none;
+    display: inline;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer #question {
+    font-size: 1rem;
+    color: rgb(255, 255, 255, 0.7);
+    font-family: var(--font-style);
+    font-weight: 400;
+    padding-top: 20px;
+    display: block;
+}
+
+.main-footer {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-layout {
+    color: rgb(255, 255, 255, 0.7);
+    font-family: var(--font-style);
+    font-size: 1rem;
+    font-weight: 300;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 6rem;
+    text-decoration: underline;
+}
+
+
+.footer-item ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.main-footer-translate-btn select {
+    background-color: transparent;
+    color: var(--font-color);
+    font-family: var(--font-style);
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+    border-width: 0.0625rem;
+    border-color: rgba(128, 128, 128, 0.7);
+    -webkit-appearance: none;
+}
+
+.main-footer-translate-btn #translate-btn1 {
+    line-height: 1.25rem;
+    padding-top: 0.375rem;
+    padding-right: calc(2.25rem + 0rem);
+    padding-bottom: 0.375rem;
+    padding-left: calc(0.625rem + 1rem + 0.5rem);
+    display: flex;
+    align-items: center;
+    min-height: 16px;
+    cursor: pointer;
+}
+
+.footer-translate {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-translate-btn #translate-svg1 {
+    transform: translate(-160%);
+}
+
+.main-footer-translate-btn .trnslate-btn {
+    transform: translateX(30px);
+}
+
+.main-footer-translate-btn {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: -18px;
+}
 
 @media screen and (max-width:910px) {
     .hero span h1 {
