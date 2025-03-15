@@ -330,6 +330,7 @@ nav .login-btn {
 
 .grid-sect {
     margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
 }
 
 .reason-to-join {
@@ -350,14 +351,8 @@ nav .login-btn {
     width: 80.55555555555556vw;
     margin: auto;
     margin-top: 10px;
-}
-
-.layout-items {
-    display: flex;
-    flex-direction: row;
     gap: 20px;
 }
-
 
 .layout-item {
     border: none;
@@ -449,57 +444,6 @@ nav .login-btn {
     font-size: inherit;
     text-align: left;
 }
-
-
-/* FAQ CSS styles */
-
-.faq-sect {
-    width: 80.55555555555556vw;
-    margin: auto;
-    height: 630px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    max-width: 1280px;
-}
-
-.faq-sect h3 {
-    font-size: 1.5rem;
-}
-
-.container-item {
-    background-color: rgb(45, 45, 45);
-    color: rgb(255, 255, 255);
-    width: 100%;
-    margin: 0 0 0.5rem 0;
-    height: 100%;
-    padding: 1.5rem;
-}
-
-.faq-sect ul li {
-    list-style: none;
-    font-size: 1.25rem;
-}
-
-
-.container-button h3 {
-    font-weight: 500;
-}
-
-.container-button {
-    width: 95%;
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-items: center;
-    color: inherit;
-    font-family: inherit;
-    font-size: inherit;
-    text-align: left;
-}
-
 
 /* Input field CSS styles */
 
@@ -608,6 +552,37 @@ footer #question {
     display: flex;
     align-items: center;
     margin-left: -18px;
+}
+
+/* Clone of Original Netflix - https://www.netflix.com/in/*/
+/* last CSS styles */
+
+.clone-of span {
+    font-family: var(--font-style);
+    display: inline-flex;
+}
+
+.clone-of span h3 {
+    font-weight: 300;
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+}
+
+.clone-of {
+    margin-top: 20px;
+}
+
+
+/* Responsive CSS styles */
+
+
+/* for Tablets, Ipads */
+
+@media screen and (max-width:1280px) {
+    .layout {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }
 
 @media screen and (max-width:910px) {
